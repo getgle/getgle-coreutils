@@ -1,0 +1,12 @@
+#!/usr/bin/php
+<?php
+
+if($argv[1] != null){
+    while(True){
+        echo $argv[1] . "\n";
+    }
+} else{
+    while(True){
+        echo "y" . "\n";
+    }
+}
